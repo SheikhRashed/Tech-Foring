@@ -11,7 +11,6 @@
   z-index: 9999;
   border-bottom: 1px solid color(border_bottom);
   background-color: rgba(0, 0, 0, 0.507);
-  // background: transparent;
 
   &.translate-top {
     transform: translateY(-120px);
@@ -35,10 +34,6 @@
     // logo
     .navbar-brand {
       max-width: 200px;
-
-      // @include mobile {
-      //     max-width: 180px;
-      // }
     }
 
     .navbar-collapse {
@@ -152,10 +147,6 @@
   z-index: 99999;
   transition: 0.5s;
 
-  // div {
-  //     display: none;
-  // }
-
   .closebtn {
     width: 40px;
     height: 40px;
@@ -163,11 +154,9 @@
     line-height: 40px;
     color: #172e58;
     background: #ebf0f8;
-    // border-radius: 50%;
     text-align: center;
     display: block;
     margin: 20px 20px;
-    // position: absolute;
   }
 
   nav ul li {
@@ -184,7 +173,6 @@
 
       i {
         padding-right: 20px;
-        // color: #172e58;
         font-size: 1rem;
       }
     }
@@ -195,24 +183,6 @@
       background: rgba(255, 255, 255, 0.37);
     }
   }
-
-  // .s-link {
-  //   display: flex;
-  //   justify-content: center;
-  //   padding: 20px 0;
-
-  //   a {
-  //     width: 40px;
-  //     height: 40px;
-  //     background: #fff;
-  //     color: #172e58;
-  //     display: block;
-  //     text-align: center;
-  //     border-radius: 50%;
-  //     margin: 5px;
-  //     line-height: 40px;
-  //   }
-  // }
 
   .copyright {
     text-align: center;
@@ -390,7 +360,6 @@
           @media (max-width: 767px) {
             font-size: 20px;
             line-height: 40px;
-            // text-align: center;
           }
         }
         .name {
@@ -433,19 +402,6 @@
       bottom: 20px;
       cursor: pointer;
     }
-    // .arrow_next {
-    //   position: absolute;
-    //   right: -50%;
-    //   cursor: pointer;
-    //   z-index: 999;
-    //   @media (min-width: 1600px) {
-    //     right: 10%;
-    //   }
-
-    //   img {
-    //     width: 40px;
-    //   }
-    // }
   }
 }
 /* video section End */
@@ -700,10 +656,6 @@
         }
       }
       .accordion_content {
-        // overflow: hidden;
-        // max-height: 0;
-        // transition: max-height 0.2s;
-
         padding: 15px;
         background: #eee;
 
